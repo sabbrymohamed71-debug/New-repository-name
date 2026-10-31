@@ -1,0 +1,6 @@
+{
+  "name": "مطعم أولاد نجم للمشويات",
+  "description": "الموقع الرسمي لمطعم أولاد نجم لجميع أنواع المشويات المصرية الأصيلة في الجيزة وكرداسة، منيو كامل وطلب مباشر عبر واتساب.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

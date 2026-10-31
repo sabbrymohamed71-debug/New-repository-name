@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Cairo', 'Tajawal', system-ui, sans-serif;
+  }
+}
+
+/* Custom styling for luxury gold/crimson Egyptian grill experience */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #D97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #D97706 0%, #B45309 50%, #92400E 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.3);
+}
+
+.luxury-glass {
+  background: rgba(24, 20, 18, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+}
